@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Memo AI",
+    "slug": "memo-ai-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [["expo-audio", { "microphonePermission": "允许 Memo AI 使用麦克风来录制语音笔记。" }]],
+    "android": { "package": "com.vibecoding.memoai" },
+    "ios": { "bundleIdentifier": "com.vibecoding.memoai" }
+  }
+}
